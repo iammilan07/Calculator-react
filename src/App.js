@@ -15,6 +15,7 @@ function New() {
 
   const calculate = () => {
       setInput(eval(input));
+      // eslint-disable-next-line
   }
 
   return (
