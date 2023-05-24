@@ -22,7 +22,7 @@ function New() {
       <Box justifyContent='center'>
       <Box className="display">{input}</Box>
       <Box className="Buttons" display='flex'>
-        <Button className="clear" onClick={clearInput}>clear</Button>
+        <Button className="clear" onClick={clearInput}>Clear</Button>
         <Button value="/" onClick={handleClick}>/</Button>
         <Button value="*" onClick={handleClick}>*;</Button>
         <Button value="7" onClick={handleClick}>7</Button>
